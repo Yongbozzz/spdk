@@ -19,13 +19,13 @@
 #include "spdk/config.h"
 
 #define SPDK_VHOST_MAX_VQUEUES	256
-#define SPDK_VHOST_MAX_VQ_SIZE	1024
+#define SPDK_VHOST_MAX_VQ_SIZE	4096
 
 #define SPDK_VHOST_SCSI_CTRLR_MAX_DEVS 8
 
 #define SPDK_VHOST_IOVS_MAX 129
 
-#define SPDK_VHOST_VQ_MAX_SUBMISSIONS	32
+#define SPDK_VHOST_VQ_MAX_SUBMISSIONS	64
 
 /*
  * Rate at which stats are checked for interrupt coalescing.
